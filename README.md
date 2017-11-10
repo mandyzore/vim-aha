@@ -3,7 +3,7 @@ Mine Vim Conf
 
 ## hack syntastic check 'on fly': vim+syntastic+pylint+vim-auto-save
 
-因为没找到```syntastic```在写代码过程中自动检查可配操作，只能通过vim ```:w```手动保存脚本时来触发syntastic. Oh, sad. syntactic下面有个相同需求的issue：
+因为没找到```syntastic```在写代码过程中自动检查可配操作，只能通过vim ```:w```手动保存脚本时来触发syntastic. Oh, sad.
 
 But, 很自然的，我们可以退而求其次去寻找自动实现vim自动保存的操作。
 
