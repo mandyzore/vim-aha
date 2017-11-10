@@ -7,7 +7,7 @@ Mine Vim Conf
 
 But, 很自然的，我们可以退而求其次去寻找自动实现vim自动保存的操作。
 
-Vim本身可以配置自动保存，不过要设置一些参数；懒癌发作找到一个封装好的插件，vim-auto-save，可以通过Vundle安装, 亲测可用, insert模式一切换会自动run syntactic check，算半自动吧。
+Vim本身可以配置自动保存，不过要设置一些参数；懒癌发作找到一个封装好的插件，vim-auto-save，可以通过Vundle安装, 亲测可用, insert模式一切换会自动run syntastic check，算半自动吧。
 
 下面是简要步骤:
 
