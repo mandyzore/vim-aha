@@ -1,7 +1,7 @@
 # vim-aha
 Mine Vim Conf
 
-## hack syntactic check 'on fly': vim+syntastic+pylint+vim-auto-save
+## hack syntastic check 'on fly': vim+syntastic+pylint+vim-auto-save
 
 因为没找到```syntastic```在写代码过程中自动检查可配操作，只能通过vim ```:w```手动保存脚本时来触发syntastic. Oh, sad. syntactic下面有个相同需求的issue：
 
