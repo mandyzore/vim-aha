@@ -18,6 +18,9 @@ Vim本身可以配置自动保存，不过要设置一些参数；懒癌发作�
 4. add ```let g:auto_save = 1``` to .vimrc, to enable the AutoSave on Vim startup
 5. open a python in Vim to test
 
+最后建修改vim-auto-save的保存触发的监听事件，默认是```InsertLeave```和```TextChange```两种，可以再加一个```CursorHoldI```, 这样在插入模式下coding停顿时会自动保存并触发语法检查。修改位置在默认安装后的```~/.vim/bundle/vim-auto-save/plugin/AutoSave.vim第29行，```let g:auto_save_events = ["InsertLeave", "TextChanged", "CursorHoldI"]
+
+
 refer
 * syntastic: https://github.com/vim-syntastic/syntastic
 * Vundle: https://github.com/VundleVim/Vundle.vim
